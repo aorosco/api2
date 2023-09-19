@@ -22,20 +22,25 @@ Sigue estos pasos para instalar y configurar el proyecto:
 
 2. Ve al directorio del proyecto:
 
---bash--
+```bash
 mkdir api2   -- si no esta creado el directorio
+```bash
 cd api2
 
 3. Instala las dependencias del proyecto utilizando npm:
+```bash
 npm install
 
 4. Instalacion de la base de datos
 Inicia sesion
-    psql -U postgres
+```bash
+psql -U postgres
 Crea la base de datos con el nombre api2
-    CREATE DATABASE api2;
+```bash
+CREATE DATABASE api2;
 Inicia la consola de PostgreSQL como el usuario "postgres" (o un superusuario que tenga permisos de administración). Puedes hacerlo ejecutando:
-    psql -U postgres
+```bash
+psql -U postgres
 Crea el usuario "ale" con una contraseña. Sustituye 'tu_contraseña' por la contraseña que deseas asignar al usuario:
     CREATE USER ale WITH PASSWORD 'tu_contraseña';
 Asigna los privilegios necesarios al usuario "ale" sobre la base de datos "api2". Por ejemplo, para darle acceso total a la base de datos, puedes ejecutar:
