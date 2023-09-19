@@ -56,3 +56,28 @@ Uso
 Para iniciar el servidor de la API, ejecuta el siguiente comando:
     npm start
 La API estará disponible en http://localhost:7000
+
+Datos de Prueba:
+Usuario Para Iniciar Sesion
+{
+  "id": 1,
+  "nombre": "Alejandro Orosco",
+  "correo": "orosco@gmail.com",
+  "contrasena": "123456"
+}
+Categoría
+{
+  "nombre": "NombreCategoria1"
+}
+
+Producto
+ {
+    "id": 1,
+    "nombre": "Nombre de producto1",
+    "precio_unitario": 10,
+    "estado": true,
+    "createdAt": "2001-01-01T04:00:00.000Z",
+    "updatedAt": "2002-02-02T04:00:00.000Z"
+  }
+
+
