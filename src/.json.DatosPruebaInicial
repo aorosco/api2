@@ -1,0 +1,17 @@
+{   "nombre": "NombredeUsuario1",
+    "correo": "correo@dominio.com",
+    "contrasena": "123"
+}
+
+
+
+
+ {
+    "id": 1,
+    "nombre": "Nombre de producto1",
+    "precio_unitario": 10,
+    "estado": true,
+    "createdAt": "2001-01-01T04:00:00.000Z",
+    "updatedAt": "2002-02-02T04:00:00.000Z"
+  }
+
